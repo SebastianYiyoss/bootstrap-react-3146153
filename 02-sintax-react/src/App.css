@@ -14,3 +14,11 @@ h1, h2, h3, h4, h5, h6{
 p{
   color: gray;
 }
+.containerCards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+  gap: 4vh;
+}

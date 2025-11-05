@@ -1,0 +1,30 @@
+.barra{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    width: 100%;
+}
+.navegar{
+    width: 90%;
+    background-color: gray;
+    border-radius: 10vh;
+    height: 5vh;
+    padding: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icono{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+.icono h2{
+    color: rgb(44, 44, 44);
+}
+.btn-mode{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 10vh;
+}
