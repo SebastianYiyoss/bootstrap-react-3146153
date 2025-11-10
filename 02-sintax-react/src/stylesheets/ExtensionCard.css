@@ -1,16 +1,16 @@
 .general{
     width: 100%;
     background-color: rgb(214, 214, 214);
-    border-radius: 5vh;
+    border-radius: 2vh;
     padding: 1.5vh;
     gap: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .text{
-    width: 50%;
+    width: 65%;
 }
 .text h1{
     color: black;
@@ -25,6 +25,18 @@
     width: 100%;
     background-color: black;
     padding: 1vh 3vh;
-    border-radius: 5vh;
+    border-radius: 1vh;
     justify-content: space-between;
+}
+.icon{
+    width: 20%;
+    border-radius: 1vh;
+    border: solid .2vh;
+    padding: 6vh 1vh;
+    background-color: white;
+}
+.tarjeta{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

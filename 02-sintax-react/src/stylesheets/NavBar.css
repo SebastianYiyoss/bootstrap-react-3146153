@@ -24,7 +24,7 @@
     color: rgb(44, 44, 44);
 }
 .btn-mode{
-    height: 5vh;
-    width: 5vh;
+    font-size: 4vh;
     border-radius: 10vh;
+    width: 5%;
 }
