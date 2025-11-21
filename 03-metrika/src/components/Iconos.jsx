@@ -2,9 +2,9 @@ import React from 'react'
 
 const Iconos = ({icono}) => {
   return (
-    <div>
-      <img src={icono} alt="" />
-    </div>
+    <>
+      <img className='opacity-25' src={icono} alt="" style={{width: '5vh', height: '5vh'}} />
+    </>
   )
 }
 

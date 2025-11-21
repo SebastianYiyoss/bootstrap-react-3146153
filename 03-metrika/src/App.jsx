@@ -5,55 +5,79 @@ import './stylesheets/colors.css'
 
 const App = () => {
   return (
-    <section>
-      <div className="container text-center">
-        <div className="row">
+    <section style={{width: '100%', height:'70vh'}} className='d-flex flex-column justify-content-evenly'>
+      <div style={{width: '90%'}} className='d-flex justify-content-end gap-2'>
+        <Iconos
+        icono='./sources/Face.png' />
+        <Iconos
+        icono='./sources/Twitt.png' />
+        <Iconos
+        icono='./sources/g+.png' />
+        <Iconos
+        icono='./sources/in.png' />
+        <Iconos
+        icono='./sources/Foco.png' />
+      </div>
+      <div className="container text-center text-light">
+        <div className="row gap-3">
 
-          <div className="col">
+          <div className="col d-flex flex-column gap-4">
 
-            <div className='d-flex'>
-              <Tarjeta 
-              imagen='./sources/Libro.png'
-              texto='About Us'
-              color='bg-blue-op' />
-              <Tarjeta
-              imagen=''
-              texto='Our Team'
-              color='bg-green' />
+            <div className='d-flex gap-4'>
+              <div className='bg-blue-op d-flex flex-column justify-content-end align-items-center gap-4 p-2' style={{width:'25vh', height:'25vh'}}>
+                <Tarjeta
+                  tamañoImagen='36%'
+                  imagen='./sources/Libro.png'
+                  texto='About Us' />
+              </div>
+              <div className='bg-green d-flex flex-column justify-content-end align-items-center gap-4 p-2' style={{width:'25vh', height:'25vh'}}>
+                <Tarjeta
+                tamañoImagen='35%'
+                imagen='./sources/Loquer.png'
+                texto='Our Team' />
+              </div>
             </div>
-            <Tarjeta
-            imagen=''
-            texto='Resume'
-            color='bg-red-op' />
+            <div className='bg-red-op d-flex flex-column justify-content-end align-items-center gap-5 p-2' style={{width:'53.7vh', height:'25vh'}}>
+              <Tarjeta
+              tamañoImagen='13%'
+              imagen='./sources/Descargar.png'
+              texto='Resume' />
+            </div>
 
           </div>
 
-          <div className="col">
+          <div className="col bg-blue d-flex flex-column justify-content-end align-items-center gap-10 p-2" style={{width:'53.7vh', height:'53.7vh'}}>
 
             <Tarjeta
-            imagen=''
-            texto='Our Works'
-            color='bg-blue' />
+              tamañoImagen='50%'
+              imagen='./sources/Galeria.png'
+              texto='Our Works' />
 
           </div>
 
-          <div className="col">
+          <div className="col d-flex flex-column gap-4">
 
-            <Tarjeta
-            imagen=''
-            texto='Contacts'
-            color='bg-violet' />
-            <div className='d-flex'>
-              <Tarjeta 
-              imagen=''
-              texto='Blog'
-              color='bg-brown' />
+            <div className='bg-violet d-flex flex-column justify-content-end align-items-center gap-4 p-2' style={{width:'53.7vh', height:'25vh'}}>
               <Tarjeta
-              imagen=''
-              texto='Feedback'
-              color='bg-orange' />
+              tamañoImagen='22%'
+              imagen='./sources/Mapa.png'
+              texto='Contacts' />
             </div>
-            
+            <div className='d-flex gap-4'>
+              <div className='bg-brown d-flex flex-column justify-content-end align-items-center gap-4 p-2' style={{width:'25vh', height:'25vh'}}>
+                <Tarjeta
+                tamañoImagen='33%'
+                imagen='./sources/Lapiz.png'
+                texto='Blog' />
+              </div>
+              <div className='bg-orange d-flex flex-column justify-content-end align-items-center gap-4 p-2' style={{width:'25vh', height:'25vh'}}>
+                <Tarjeta
+                tamañoImagen='35%'
+                imagen='./sources/Carta.png'
+                texto='Feedback' />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
