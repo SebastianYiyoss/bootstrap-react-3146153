@@ -1,27 +1,63 @@
 import React from 'react'
 import Iconos from './components/Iconos'
 import Tarjeta from './components/Tarjeta'
+import './stylesheets/colors.css'
 
 const App = () => {
   return (
-    <div class="text-center d-flex justify-content-center align-items-center" style={{width: "100vw", height: "100vh"}}>
-      <div class="row">
+    <section>
+      <div className="container text-center">
+        <div className="row">
 
-        <div class="col">
-          <Tarjeta
-          color="bg-success"
-          texto="About Us"
-          />
-        </div>
+          <div className="col">
 
-        <div class="col">
-          Column
-        </div>
-        <div class="col">
-          Column
+            <div className='d-flex'>
+              <Tarjeta 
+              imagen='./sources/Libro.png'
+              texto='About Us'
+              color='bg-blue-op' />
+              <Tarjeta
+              imagen=''
+              texto='Our Team'
+              color='bg-green' />
+            </div>
+            <Tarjeta
+            imagen=''
+            texto='Resume'
+            color='bg-red-op' />
+
+          </div>
+
+          <div className="col">
+
+            <Tarjeta
+            imagen=''
+            texto='Our Works'
+            color='bg-blue' />
+
+          </div>
+
+          <div className="col">
+
+            <Tarjeta
+            imagen=''
+            texto='Contacts'
+            color='bg-violet' />
+            <div className='d-flex'>
+              <Tarjeta 
+              imagen=''
+              texto='Blog'
+              color='bg-brown' />
+              <Tarjeta
+              imagen=''
+              texto='Feedback'
+              color='bg-orange' />
+            </div>
+            
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
