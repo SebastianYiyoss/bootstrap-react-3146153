@@ -7,12 +7,6 @@
   width: 100%;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.sec-1{
-    display: flex;
+.bg-blue-light{
+    background-color: rgba(174, 208, 247, 0.616) !important;
 }
