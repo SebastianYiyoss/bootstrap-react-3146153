@@ -7,6 +7,86 @@
   width: 100%;
 }
 
-.bg-blue-light{
-    background-color: rgba(174, 208, 247, 0.616) !important;
+
+
+
+.bg-rock-sky{
+  background-image: url(../sources/FondoOne.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.bg-rocks-lateral{
+  background-image: url(../sources/FondoTwo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bg-rocks-lateral-2{
+  background-image: url(../sources/FondoThree.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.bg-rocks-up-down{
+  background-image: url(../sources/FondoFour.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.bg-preview{
+  background-image: url(../sources/VistaPre.png);
+  background-size: 300%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-rocks-brown{
+  background-image: url(../sources/FondoFive.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+.bg-skin{
+  background-color: rgb(232, 215, 197)!important;
+}
+.bg-body-black{
+  background-color: rgb(230, 227, 227) !important;
+}
+.bg-secondary-ligth{
+  background-color: rgb(172, 172, 172) !important;
+}
+.bg-brown{
+  background-color: rgb(141, 123, 103);
+}
+.bg-white-op{
+  background-color: rgb(255, 255, 255);
+}
+.bg-green{
+  background-color: rgb(47, 71, 47);
+}
+
+
+.text-green-light{
+  color: rgb(109, 155, 109);
+}
+.text-skin{
+  color: rgb(232, 215, 197)!important;
+}
+.text-brown-2{
+  color: rgb(141, 123, 103);
+}
+.text-brown{
+  color: rgb(61, 52, 41);
+}
+.fs-7{
+  font-size: 2vh !important;
+}
+
+
+.position-relative-confg{
+  position: relative;
+  top: -89.4vh;
+  left: 20vw;
 }
