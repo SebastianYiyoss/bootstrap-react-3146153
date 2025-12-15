@@ -36,7 +36,7 @@
 }
 .bg-preview{
   background-image: url(../sources/VistaPre.png);
-  background-size: 300%;
+  background-size: 350%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -45,6 +45,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+}
+.bg-crater{
+  background-image: url(../sources/FondoSix.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bg-grass{
+  background-image: url(../sources/FondoSeven.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 
@@ -59,6 +71,9 @@
 }
 .bg-brown{
   background-color: rgb(141, 123, 103);
+}
+.bg-brown-2{
+  background-color: rgba(255, 232, 190, 0.507);
 }
 .bg-white-op{
   background-color: rgb(255, 255, 255);
@@ -79,6 +94,9 @@
 }
 .text-brown{
   color: rgb(61, 52, 41);
+}
+.text-green-militar{
+  color: rgb(41, 61, 41);
 }
 .fs-7{
   font-size: 2vh !important;
